@@ -59,7 +59,7 @@ export default class App extends React.Component {
           }}>
           <Text style={styles.buttonText}>GO</Text>
         </TouchableOpacity>
-        <View>
+        <View style={{alignSelf:'center',flexDirection:'row'}}>
           {this.state.chunks.map((item, index) => {
             return (
               <PhonicSoundButton
